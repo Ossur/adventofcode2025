@@ -1,0 +1,1 @@
+input.txt has 7 lines and in total 47 letters
