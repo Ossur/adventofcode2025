@@ -44,7 +44,7 @@ fun readInputAndCountZeroHits(inputname: String): Int {
 		clicks = when {
 			clicks < 0 -> {
 				if (!wasZero) {
-					onZero++
+					onZero++ //otherwise, this Zero get's double counted
 				}
 				onZero += (clicks.div(-100))
 				eucledian_modulus(clicks, 100)
