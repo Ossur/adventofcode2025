@@ -1,6 +1,6 @@
 #! /bin/env ocaml
 
-#use "./utils.ml"
+#use "../utils.ml"
 
 (* Day0 is more like a utils test *)
 

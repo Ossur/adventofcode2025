@@ -1,3 +1,5 @@
+#! /bin/env kotlin
+
 import java.io.File
 
 var letterCount = 0
